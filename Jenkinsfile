@@ -18,7 +18,7 @@ pipeline{
                  
                  stage ('Check logs') {
                     steps {
-                        filterLogs ('Hello', 1)
+                        filterLogs ('Hellosss', 1)
                     }
                 }
 		

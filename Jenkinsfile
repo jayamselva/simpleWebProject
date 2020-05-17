@@ -11,7 +11,7 @@ pipeline{
               stage('maven build'){
                   steps{
                       script{
-		    	                echo "Hello Selva"
+		    	                echo "mvn clean install"
                       	  }
                	     }  
                  }	
